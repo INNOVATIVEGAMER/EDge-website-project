@@ -94,20 +94,20 @@
         <div class="form-wrap">
             <h1>Contact Us</h1>
             <p>Please Use The Form Below To Contact Us</p>
-            <form action="#">
+            <form name="Contact" method="POST" data-netlify="true">
                 <label for="Name">Name</label>
-                <input type="text" name="Name" id="Name" placeholder="Enter Name">
+                <input type="text" name="Name" id="Name" placeholder="Enter Name" required>
                 
                 <label for="Email">Email</label>
-                <input type="email" name="Email" id="Email" placeholder="Enter Email">
+                <input type="email" name="Email" id="Email" placeholder="Enter Email" required>
                 
                 <label for="Phone-Number">Phone-Number</label>
                 <input type="tel" name="Phone-Number" id="Phone-number" placeholder="Enter Phone Number">
                 
                 <label for="Message">Message</label>
                 <textarea name="Message" id="" rows="3" placeholder="Enter Message"></textarea>
+                <input class="smt" type="submit" value="submit">
             </form>
-            <a href="./form_submit.html">Send</a>
         </div>
         <div class="map"></div>
     </section>
