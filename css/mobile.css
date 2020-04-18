@@ -1,0 +1,57 @@
+.what-content{
+    display: block;
+}
+
+.what-content .block{
+    display: flex;
+    text-align: left;
+    padding: 1rem 1rem;
+    width: 80%;
+    margin:auto;
+}
+
+.what-content .block .icon{
+    display: block;
+    align-self: center;
+}
+
+.what-content .block .data{
+    margin-left: 1rem;
+}
+
+.what-content .block .data h3{
+    padding: 1rem 0;
+}
+
+/* smartphone */
+@media(max-width:500px){
+    
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    #navbar h1{
+        margin-bottom: 1rem;
+    }
+
+    #who .who-img{
+        display: none;
+    }
+
+    .clients .client-logos img{
+        widows: 80%;
+    }
+
+    .client-logos div:last-child{
+        display: none;
+    }
+
+    #form-map{
+        display: block;
+    }
+
+    .map{
+        height: 200px;
+        border-top: #222 solid 3px;
+    }
+}

@@ -1,0 +1,25 @@
+#what{
+    padding-bottom: 3rem;
+}
+.what-content .block{
+    display: flex;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.what-content .block .icon{
+    display: block;
+    align-self: center;
+}
+
+.what-content .block .data{
+    margin-left: 1rem;
+}
+
+.what-content .block .data h3{
+    padding: 1rem 0;
+}
+
+.map{
+    flex:2;
+}
