@@ -39,7 +39,7 @@
     }
 
     .clients .client-logos img{
-        widows: 80%;
+        width: 80%;
     }
 
     .client-logos div:last-child{
@@ -53,5 +53,20 @@
     .map{
         height: 200px;
         border-top: #222 solid 3px;
+    }
+
+    #showcase h1{
+        font-size: 3rem;
+    }
+
+    #showcase p{
+        font-size : 1.1rem;
+    }
+
+    @media (max-height:568px)
+    {
+        #showcase .showcase-content{
+            padding-top: 0;
+        }
     }
 }
